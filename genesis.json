@@ -18,6 +18,273 @@
   },
   "app_hash": "",
   "app_state": {
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 11,
+        "max_entries": 7,
+        "bond_denom": "firma"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "params": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "contract": {
+      "contract_records": []
+    },
+    "accounts": [
+      {
+        "address": "firma1ytleandjvn27kcpsfly3d39amw6n2znfpm5eg7",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "590000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1evxm5kgl03tfulwdvw5jqv54rrwgwugmsd6ypc",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1tfh83xugcxz64wunueun4c2dynksfschl7296s",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1s3vsu3azs7r5frepcza22ru5pdfu8xy88nedq2",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1cn3g7e9fg34km00jfqpz08q2f26nd5tv0y8q37",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma140u4qsjpzlydh25mgz9r2x7rgsnz7epums55ys",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1yzey9vdj8dlrws8kmxr0qp6ad7r60w0tdfkqem",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1hyg9nvlspy6wy065pu5ftt5t9j7gwfvzh5ygzv",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1wlz5l8zzes2tvsuk0uhn9h8l9yxq2mx4jzcvl9",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma19x88f7k6t30yrnct6zw7ftm9krp3m56qkg8vy3",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "firma1uld3zg4zcgx62zkf8w3v2vusdpldyurcxud7jw",
+        "coins": [
+          {
+            "denom": "firma",
+            "amount": "1000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      }
+    ],
     "slashing": {
       "params": {
         "max_evidence_age": "120000000000",
@@ -29,15 +296,6 @@
       },
       "signing_infos": {},
       "missed_blocks": {}
-    },
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      }
     },
     "genutil": {
       "gentxs": [
@@ -512,7 +770,7 @@
                   "min_self_delegation": "1",
                   "delegator_address": "firma1ytleandjvn27kcpsfly3d39amw6n2znfpm5eg7",
                   "validator_address": "firmavaloper1ytleandjvn27kcpsfly3d39amw6n2znflglzgs",
-                  "pubkey": "firmavalconspub1zcjduepqugntnjrx8us35nd9u25hyxk5pw0l4utlt6k9rrpunc3ckcmcsu8qgpyvmn",
+                  "pubkey": "firmavalconspub1zcjduepq2hmld452ugejqx3j7r5mu4zp0z3d3e6qk5h9azfty3xa6s6wjgvsdfa8wq",
                   "value": {
                     "denom": "firma",
                     "amount": "1000000"
@@ -530,277 +788,19 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "AphzfQjmeJtOSczRUmZeqUKMDU4i6BkX9zL7B8HhidV1"
                 },
-                "signature": "fdhBN/eDIV6WroaTK1JSB7ovUQ5m+SDWMTN7U3DA6SAlrucNqvq+XxBPZKD9/g5cd09Ul9umvLQtdyjPX00Tlw=="
+                "signature": "GqkcGZ7bedPk4KszrS9K0L2n3W8UpuZqyALgxBXe20gfsRjaNVrvtVEPKdAH0XGJhEyB8fsgLF+BD53vtCL3MQ=="
               }
             ],
-            "memo": "a38f10844c4da8e06b07d2906bac450f86d88b11@52.78.239.64:26656"
+            "memo": "a38f10844c4da8e06b07d2906bac450f86d88b11@172.31.0.79:26656"
           }
         }
       ]
     },
-    "params": null,
     "supply": {
       "supply": []
     },
     "bank": {
       "send_enabled": true
-    },
-    "distribution": {
-      "fee_pool": {
-        "community_pool": []
-      },
-      "community_tax": "0.020000000000000000",
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "withdraw_addr_enabled": true,
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 11,
-        "max_entries": 7,
-        "bond_denom": "firma"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
-    },
-    "accounts": [
-      {
-        "address": "firma1ytleandjvn27kcpsfly3d39amw6n2znfpm5eg7",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "590000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1evxm5kgl03tfulwdvw5jqv54rrwgwugmsd6ypc",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1tfh83xugcxz64wunueun4c2dynksfschl7296s",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1s3vsu3azs7r5frepcza22ru5pdfu8xy88nedq2",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1cn3g7e9fg34km00jfqpz08q2f26nd5tv0y8q37",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma140u4qsjpzlydh25mgz9r2x7rgsnz7epums55ys",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1yzey9vdj8dlrws8kmxr0qp6ad7r60w0tdfkqem",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1hyg9nvlspy6wy065pu5ftt5t9j7gwfvzh5ygzv",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1wlz5l8zzes2tvsuk0uhn9h8l9yxq2mx4jzcvl9",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma19x88f7k6t30yrnct6zw7ftm9krp3m56qkg8vy3",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      },
-      {
-        "address": "firma1uld3zg4zcgx62zkf8w3v2vusdpldyurcxud7jw",
-        "coins": [
-          {
-            "denom": "firma",
-            "amount": "1000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
-      }
-    ],
-    "contract": {
-      "contract_records": []
     }
   }
 }
