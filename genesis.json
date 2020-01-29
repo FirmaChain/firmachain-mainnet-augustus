@@ -18,25 +18,6 @@
   },
   "app_hash": "",
   "app_state": {
-    "supply": {
-      "supply": []
-    },
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 11,
-        "max_entries": 7,
-        "bond_denom": "ufirma"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
-    },
-    "params": null,
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -45,40 +26,6 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       }
-    },
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "ufirma",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
-      }
-    },
-    "distribution": {
-      "fee_pool": {
-        "community_pool": []
-      },
-      "community_tax": "0.020000000000000000",
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "withdraw_addr_enabled": true,
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "bank": {
-      "send_enabled": true
     },
     "accounts": [
       {
@@ -302,6 +249,10 @@
         ]
       }
     ],
+    "params": null,
+    "bank": {
+      "send_enabled": true
+    },
     "slashing": {
       "params": {
         "max_evidence_age": "120000000000",
@@ -316,6 +267,55 @@
     },
     "contract": {
       "contract_records": []
+    },
+    "supply": {
+      "supply": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 11,
+        "max_entries": 7,
+        "bond_denom": "ufirma"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ufirma",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
     },
     "genutil": {
       "gentxs": [
@@ -763,10 +763,10 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "A0S0fcG5GON6qZ1eXXFV7gFHUH6cuhVu59xlR3eZVRUQ"
                 },
-                "signature": "PD2SPIJv1ueeRx32rN7o9YZc4etjdh9YOfk2H0a1FXIBbcJWH1zpaKdeYhpVTcUHTBCMQwtxXqKygCa6yOQrTg=="
+                "signature": "EtjALlap6nBAI415ERQIR5CmQXVRlUk/X8voxcpn5NINd9tfWIM9RK9p35G5RKb4TBhVtwy5OqvEK4TDbiVGMA=="
               }
             ],
-            "memo": "a38f10844c4da8e06b07d2906bac450f86d88b11@52.78.239.64:26656"
+            "memo": "a38f10844c4da8e06b07d2906bac450f86d88b11@15.164.210.113:26656"
           }
         },
         {
