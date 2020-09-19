@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2020-09-19T11:59:25.095045573Z",
+  "genesis_time": "2020-09-19T13:01:00.476720349Z",
   "chain_id": "augustus-1",
   "consensus_params": {
     "block": {
@@ -18,6 +18,9 @@
   },
   "app_hash": "",
   "app_state": {
+    "bank": {
+      "send_enabled": true
+    },
     "accounts": [
       {
         "address": "firma14yh7wyqzzm6e2sk4dpav8sp4xdjatdkp3vgyl7",
@@ -240,39 +243,6 @@
         ]
       }
     ],
-    "contract": {
-      "contract_records": []
-    },
-    "mint": {
-      "minter": {
-        "inflation": "0.0176428571425",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "ufirma",
-        "inflation_rate_change": "0.0000001",
-        "inflation_max": "1.0",
-        "inflation_min": "0.0",
-        "goal_bonded": "0.2",
-        "blocks_per_year": "6311520"
-      }
-    },
-    "bank": {
-      "send_enabled": true
-    },
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      }
-    },
-    "genutil": {
-      "gentxs": null
-    },
-    "params": null,
     "slashing": {
       "params": {
         "max_evidence_age": "120000000000",
@@ -284,6 +254,54 @@
       },
       "signing_infos": {},
       "missed_blocks": {}
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "ufirma"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "genutil": {
+      "gentxs": null
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ufirma",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "params": null,
+    "contract": {
+      "contract_records": []
+    },
+    "supply": {
+      "supply": []
     },
     "distribution": {
       "fee_pool": {
@@ -301,24 +319,6 @@
       "validator_current_rewards": [],
       "delegator_starting_infos": [],
       "validator_slash_events": []
-    },
-    "supply": {
-      "supply": []
-    },
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 11,
-        "max_entries": 7,
-        "bond_denom": "ufirma"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
     }
   }
 }
