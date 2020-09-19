@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2020-09-19T10:43:42.054492612Z",
+  "genesis_time": "2020-09-19T11:59:25.095045573Z",
   "chain_id": "augustus-1",
   "consensus_params": {
     "block": {
@@ -18,49 +18,6 @@
   },
   "app_hash": "",
   "app_state": {
-    "bank": {
-      "send_enabled": true
-    },
-    "distribution": {
-      "fee_pool": {
-        "community_pool": []
-      },
-      "community_tax": "0.020000000000000000",
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "withdraw_addr_enabled": true,
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "mint": {
-      "minter": {
-        "inflation": "0.0176428571425",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "ufirma",
-        "inflation_rate_change": "0.0000001",
-        "inflation_max": "1.0",
-        "inflation_min": "0.0",
-        "goal_bonded": "0.02",
-        "blocks_per_year": "6311520"
-      }
-    },
-    "supply": {
-      "supply": []
-    },
-    "contract": {
-      "contract_records": []
-    },
-    "genutil": {
-      "gentxs": null
-    },
     "accounts": [
       {
         "address": "firma14yh7wyqzzm6e2sk4dpav8sp4xdjatdkp3vgyl7",
@@ -283,6 +240,39 @@
         ]
       }
     ],
+    "contract": {
+      "contract_records": []
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.0176428571425",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ufirma",
+        "inflation_rate_change": "0.0000001",
+        "inflation_max": "1.0",
+        "inflation_min": "0.0",
+        "goal_bonded": "0.2",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "genutil": {
+      "gentxs": null
+    },
+    "params": null,
     "slashing": {
       "params": {
         "max_evidence_age": "120000000000",
@@ -295,11 +285,30 @@
       "signing_infos": {},
       "missed_blocks": {}
     },
-    "params": null,
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "supply": {
+      "supply": []
+    },
     "staking": {
       "params": {
         "unbonding_time": "1814400000000000",
-        "max_validators": 100,
+        "max_validators": 11,
         "max_entries": 7,
         "bond_denom": "ufirma"
       },
@@ -310,15 +319,6 @@
       "unbonding_delegations": null,
       "redelegations": null,
       "exported": false
-    },
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      }
     }
   }
 }
