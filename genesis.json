@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2020-09-29T06:00:00.000000000Z",
+  "genesis_time": "2020-09-29T06:00:00Z",
   "chain_id": "augustus-1",
   "consensus_params": {
     "block": {
@@ -45,18 +45,516 @@
       "signing_infos": {},
       "missed_blocks": {}
     },
-    "mint": {
-      "minter": {
-        "inflation": "0.0176428571425",
-        "annual_provisions": "0.000000000000000000"
-      },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node10",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma149d3hdvnx5cly89edvp50ualefpyg3vh0hlygn",
+                  "validator_address": "firmavaloper149d3hdvnx5cly89edvp50ualefpyg3vh3y5lga",
+                  "pubkey": "firmavalconspub1zcjduepqdkyns33rdymkguqxpdspu05c0c6m7nm77gvt8gxsedxk0756f9wsp08hgu",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "Aq9oo0n1I40ulZvXY56jbo+V6MVd7g7nZGpb6vSbmYHO"
+                },
+                "signature": "o6UAikTki81F6cO15mIC48goAfNnfx4UTNBSVfe3//sosS0DyYrTRikxDp0tzMrr/RwfD08HIURADmjxxk+o1Q=="
+              }
+            ],
+            "memo": "0982107c5a430c65af417973283bca8b26cd6ee8@node10.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node8",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1qvzxdrgtlumkjla4hdhe5a92warq04cnsd5px8",
+                  "validator_address": "firmavaloper1qvzxdrgtlumkjla4hdhe5a92warq04cnw7l6xf",
+                  "pubkey": "firmavalconspub1zcjduepq5qs68vpzhhfz0yr0ndjqe8lpuj6npfzkvf6gsmkerkxxlsec8clsc4qxrm",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AiwDoya+3JmThIx9MlfdnBSKAOilfyXSd1QXP4suDXy9"
+                },
+                "signature": "6aTK1Ju/DtlIvr+I6pRdQEh7M1RmkvXfUlf3MYUD64IqP5G8fJkMFAP6pYMV++V8MT+tjto5sp2qMvZXLRY97w=="
+              }
+            ],
+            "memo": "14b3c5f298529bd8304d097ef2390ed433b0784b@node8.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node9",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1qve8zzck4tss5y5yjmsygavdcc4pmvl522zmf8",
+                  "validator_address": "firmavaloper1qve8zzck4tss5y5yjmsygavdcc4pmvl55efqff",
+                  "pubkey": "firmavalconspub1zcjduepq5mrrvqs9l3sxp6zxnskp2ada355uaejj6fkpdepu4p8aq8pnnaxsm6m702",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A5/4Wf8Hk3BcHhzOW9Eby6jlsZYG54MN1nbWx1y2JJLQ"
+                },
+                "signature": "QaM3i973Sdvmg5Cll4DTOWb4Q0bl1DWskHmmFmlzu9cQ/SkPyc9UrbZMH5R+Bza3xLEqb66EBajL5y3AN5GTow=="
+              }
+            ],
+            "memo": "23365690a083430de0a82791a840d3e1373b1d99@node9.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node4",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1w9rgx3d8mk8ae5rnjwhx5amchna68l0a3vl0yg",
+                  "validator_address": "firmavaloper1w9rgx3d8mk8ae5rnjwhx5amchna68l0a0l55yx",
+                  "pubkey": "firmavalconspub1zcjduepqhws7sghl89t9l8e9c2dqzekn8lxmm06jeq5zka78dhrnm2ypt93sftvv5v",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AhReMXI8tVJh6WNfb3TnSkO7XLYk9cHCghOiGLSyrwkC"
+                },
+                "signature": "l3ieeZt+UEtfucfysZXVwVhwYBoqHGZ/HXnwabaLva1XNAOdjZxs0B5RpQae3ytEbt7sR5DJhi0EJu+m86WE3Q=="
+              }
+            ],
+            "memo": "43848fed44ef14425f19b81d410b4b6cc4328133@node4.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node2",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1ryf3ktec4y53rgeme7n5hrwmm8ca939xtgj4em",
+                  "validator_address": "firmavaloper1ryf3ktec4y53rgeme7n5hrwmm8ca939x4mewe4",
+                  "pubkey": "firmavalconspub1zcjduepq4dav7epxrfue9gkmeels65jc33dna0k8exard8mycdjldjschjgsrq2sf5",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A0j3XBwTjzEbXIl1sumA+WnKMDy4ZJk6aJBDxiz+LFGy"
+                },
+                "signature": "j8RpGcTNIN5oVREsE3IhMLJ7DhfaQEjgvSjo4R/JlPVKW8kFXYO4H/Z1E9Op1UCELoyNk0TXI74s3OJE77fjTA=="
+              }
+            ],
+            "memo": "565dfeea10c498812836991c70f3f061e79fffb4@node2.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "mainnode",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma14yh7wyqzzm6e2sk4dpav8sp4xdjatdkp3vgyl7",
+                  "validator_address": "firmavaloper14yh7wyqzzm6e2sk4dpav8sp4xdjatdkp0lrlls",
+                  "pubkey": "firmavalconspub1zcjduepqwszyclnpv54mxdywkddlunajzv9nv08rq5a7270ea03wewa2glysf9dlqp",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A0S0fcG5GON6qZ1eXXFV7gFHUH6cuhVu59xlR3eZVRUQ"
+                },
+                "signature": "pq3ugdd7bCryCXXZVs7J4xz+mjGxEgQOGDY2YYIQpBUzBsmLTNwCHVPhzbmXBQR7rTvy1zmzdELo7bKilMbvcw=="
+              }
+            ],
+            "memo": "9d696292f558951754730aefee8e70a786f3260f@15.164.210.113:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node7",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1ukmhylgd80wakef87ea7pkjtyl55673tzrptsn",
+                  "validator_address": "firmavaloper1ukmhylgd80wakef87ea7pkjtyl55673tus2ssa",
+                  "pubkey": "firmavalconspub1zcjduepqga7e8txyknrzctnyu8x2w77qf5lavcyw39car58qzq56v7xy9h0sm6sq5j",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AiHIjUvdyACY6q2v7Ps/K+cV+/mQOqBa8vjU36Aq8k4W"
+                },
+                "signature": "x/kdSEryhIybyaIH09qb9eUXFmzqFqcyqhsnvDbXe2kUNk1r0CiaAxuQm10AN5h4P7/aPZU3n6I7Idqwb0UAFg=="
+              }
+            ],
+            "memo": "a3223f36ffe17039c4627a377385fda98e322943@node7.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node1",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma16c0fefy8cdu0rlm5cxn6a4gl0qf2r697nfne0m",
+                  "validator_address": "firmavaloper16c0fefy8cdu0rlm5cxn6a4gl0qf2r697d6cz04",
+                  "pubkey": "firmavalconspub1zcjduepq8a9ld0hj3af8n7qfk0fxtvfchkl6v0rdpvhkh5uyw7rra2mj5wtqnqrcpk",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AmUuU42BrqT19NVYcJRGlZMK3YegUZYUKzlMcoQoxOIp"
+                },
+                "signature": "RwJPBVDDBPFSj2W8de6tmCSABs0nSBKApnxVTSlQoB5Cx7VMwWsbcQbsgxbJiOJJ8IWgK+71BIVQbC/Vhj7QHw=="
+              }
+            ],
+            "memo": "b559728fb5c6158fa0a0178dbf37c1039911d35e@node1.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node6",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1zxjzwv6rzk28lnrk33hjeaj7cw46kheztxxd37",
+                  "validator_address": "firmavaloper1zxjzwv6rzk28lnrk33hjeaj7cw46khez44dk3s",
+                  "pubkey": "firmavalconspub1zcjduepqu3ncjd8drf2mu2xt4sczpr7e2z5eus7nws9n7fmgt8ezpxnceahq4qhmnw",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A1uv6LqDNsNzxLwleikjzPw6Y4nLdotyw3ESZo7a0OLL"
+                },
+                "signature": "QAnY/cxa3hJOEdfWmgZ2O/Y9pHHaUPdHEU+TG0GCgndPSHpjP8n9IxsHyYFDKDSq5zFbk4MuF8+Hdt9yAnHaWg=="
+              }
+            ],
+            "memo": "b7d63614a839d17559b60bc1aaec18ea0e33ca2a@node6.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node5",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1utpp7v4x9xrkel9jxpg585rg5ppswmtmnvcn0e",
+                  "validator_address": "firmavaloper1utpp7v4x9xrkel9jxpg585rg5ppswmtmdlng0h",
+                  "pubkey": "firmavalconspub1zcjduepqrlt2n8dxcwfax0gqmu0s4hkm3c22zs9a490c0h6tjra8ahh9zcvq3862je",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AgZBPVzw6DQX/OjnqvVkCgAIJG9YZN/ifvk+aiZCqolG"
+                },
+                "signature": "yiESqafWD3w6ZPs8GuAndbKj4XcmXCFwdT+Co7Rb4y5VScLrntgc08H3yIYUGHryL6HKSuOLdP6gJL3tgwShuQ=="
+              }
+            ],
+            "memo": "bc2948e95c2ecdba9a7dd176fc6980d12daa163f@node5.firmachain.org:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node3",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "firma1r34f9n4jg8elmrvrl99esg0clryddalet80x4w",
+                  "validator_address": "firmavaloper1r34f9n4jg8elmrvrl99esg0clryddale45ya4q",
+                  "pubkey": "firmavalconspub1zcjduepqc4p8fkem42ax83axmycvrzsqatsh03gwjg33apzkawyvf2zacecqa9ug0x",
+                  "value": {
+                    "denom": "ufirma",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AgkzaJVVe+mIs126Z5+2Gk/atDdx2jcu0U9Q7P7At2mN"
+                },
+                "signature": "c6onhFXnm9NWabNqIKM3mPsKUxg+tg/Lx4cXCZFRTMk7nKsZLBoHaI25dVJZWLeLtkyd4SQEBJZcIeJt3UDIog=="
+              }
+            ],
+            "memo": "e2bc0171657bac1613cdc167487182b03a1d043a@node3.firmachain.org:26656"
+          }
+        }
+      ]
+    },
+    "params": null,
+    "bank": {
+      "send_enabled": true
+    },
+    "auth": {
       "params": {
-        "mint_denom": "ufirma",
-        "inflation_rate_change": "0.0000001",
-        "inflation_max": "1.0",
-        "inflation_min": "0.0",
-        "goal_bonded": "0.02",
-        "blocks_per_year": "6311520"
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
       }
     },
     "distribution": {
@@ -76,14 +574,8 @@
       "delegator_starting_infos": [],
       "validator_slash_events": []
     },
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      }
+    "supply": {
+      "supply": []
     },
     "accounts": [
       {
@@ -307,514 +799,22 @@
         ]
       }
     ],
+    "mint": {
+      "minter": {
+        "inflation": "0.0176428571425",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ufirma",
+        "inflation_rate_change": "0.0000001",
+        "inflation_max": "1.0",
+        "inflation_min": "0.0",
+        "goal_bonded": "0.02",
+        "blocks_per_year": "6311520"
+      }
+    },
     "contract": {
       "contract_records": []
-    },
-    "supply": {
-      "supply": []
-    },
-    "genutil": {
-      "gentxs": [
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode2",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1ryf3ktec4y53rgeme7n5hrwmm8ca939xtgj4em",
-                  "validator_address": "firmavaloper1ryf3ktec4y53rgeme7n5hrwmm8ca939x4mewe4",
-                  "pubkey": "firmavalconspub1zcjduepquktj9hdepqjnk33wy7ge5uxselrjjwzlxqgyh96t0hvf7mrsxefqzg5tw0",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "A0j3XBwTjzEbXIl1sumA+WnKMDy4ZJk6aJBDxiz+LFGy"
-                },
-                "signature": "Cz/UletEFxZboL9R/DjY6qPo38N87kgO0zB526Ckg/8vDwqTA7goDXWnrt8aN/Y5ObQtD0zu5uRwGggld/o3yA=="
-              }
-            ],
-            "memo": "1781d52e40cde4a9f02549edd1f8a2f9f4c2b80d@13.124.148.36:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode6",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1zxjzwv6rzk28lnrk33hjeaj7cw46kheztxxd37",
-                  "validator_address": "firmavaloper1zxjzwv6rzk28lnrk33hjeaj7cw46khez44dk3s",
-                  "pubkey": "firmavalconspub1zcjduepq633afv4rqguzlw2aqdu3gwvezfw7fyseyy093kpjsv5ue74yspmq8r3yn9",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "A1uv6LqDNsNzxLwleikjzPw6Y4nLdotyw3ESZo7a0OLL"
-                },
-                "signature": "jcYL1qUJ/YyVVwb2oPI8vTDAw5CergDZGAhbSKpo6V4Ch0SPy+3sPgsVL0lTD9kKNYRtn/Pu9PrH5YaQS56MmQ=="
-              }
-            ],
-            "memo": "367b5b6134fc5d2a72ebd8461eb2c8a20984b58d@13.124.227.66:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode10",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma149d3hdvnx5cly89edvp50ualefpyg3vh0hlygn",
-                  "validator_address": "firmavaloper149d3hdvnx5cly89edvp50ualefpyg3vh3y5lga",
-                  "pubkey": "firmavalconspub1zcjduepq5mer6zzxjswcpflrf65aw620ptjzg0ye8ssq398frkhpauakgeksd5x2eh",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "Aq9oo0n1I40ulZvXY56jbo+V6MVd7g7nZGpb6vSbmYHO"
-                },
-                "signature": "dPawH+WqHb0oG4JBSXem60UuNhzb//m3OTwB5ogX3VIeaq9c80kbC8iD/KLU9KR3K0pTsMYznjWN2bUkJg486g=="
-              }
-            ],
-            "memo": "4a2a255f18d7d14a88c32caa2a022a5bc148fe74@13.125.25.92:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode8",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1qvzxdrgtlumkjla4hdhe5a92warq04cnsd5px8",
-                  "validator_address": "firmavaloper1qvzxdrgtlumkjla4hdhe5a92warq04cnw7l6xf",
-                  "pubkey": "firmavalconspub1zcjduepqev9n46d5u0gm0htdchxyvtn2lutgjvv3v885sd0p85d4f08gfkksqarpcl",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "AiwDoya+3JmThIx9MlfdnBSKAOilfyXSd1QXP4suDXy9"
-                },
-                "signature": "f/Enl2DmqaUpoazKBVoLJ30ZS71Rx4iRyj8K13NwbPVXpr5Eiu5qLLfhYIulbYUewzx4S6vMA7lWBrGxob6XjA=="
-              }
-            ],
-            "memo": "58c6df9c3b038cb30cd8c451b26a5a0f3d9336ae@13.209.16.29:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode7",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1ukmhylgd80wakef87ea7pkjtyl55673tzrptsn",
-                  "validator_address": "firmavaloper1ukmhylgd80wakef87ea7pkjtyl55673tus2ssa",
-                  "pubkey": "firmavalconspub1zcjduepqtyaqq08x0d3g3anvjx2qtx5jvt7khx6lgrvv3g7h2zhpd06aqffs3escn7",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "AiHIjUvdyACY6q2v7Ps/K+cV+/mQOqBa8vjU36Aq8k4W"
-                },
-                "signature": "JbBi5/UOxdtrcho7MFBzZr/0ZUensw9C5htsiQdKX5dKCYo8XkBVJVOIvaZ3iDXsOOvXfFsW9v1Lnb+Llue8Ng=="
-              }
-            ],
-            "memo": "6fdfa5c8e753e6f5f96e5d8999e119fbedb7e02e@13.125.132.140:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "mainnode",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma14yh7wyqzzm6e2sk4dpav8sp4xdjatdkp3vgyl7",
-                  "validator_address": "firmavaloper14yh7wyqzzm6e2sk4dpav8sp4xdjatdkp0lrlls",
-                  "pubkey": "firmavalconspub1zcjduepq7z3mdlkndh0swx8e6rqprawppgz6v2tnu7qc4cw28y7km7qmxhmq82cfse",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "A0S0fcG5GON6qZ1eXXFV7gFHUH6cuhVu59xlR3eZVRUQ"
-                },
-                "signature": "XwwOh4lgE8LmLKzutkmLaDlSL4CdeN94l1v3s58BhY5J7nPlDZP77qXKi55tw3rYLlK3Ry/v32UmiHYWWYTo+g=="
-              }
-            ],
-            "memo": "9cf27b2d7ceed4f47bb06775ccec7d59618246e8@15.164.210.113:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode5",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1utpp7v4x9xrkel9jxpg585rg5ppswmtmnvcn0e",
-                  "validator_address": "firmavaloper1utpp7v4x9xrkel9jxpg585rg5ppswmtmdlng0h",
-                  "pubkey": "firmavalconspub1zcjduepqazfxljp5qf49844x6e6jq89gn69rel03ggs0ztfp36sh8hsjgjvskstdmz",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "AgZBPVzw6DQX/OjnqvVkCgAIJG9YZN/ifvk+aiZCqolG"
-                },
-                "signature": "y2KUNrL6fryu7hQsuANlCph6AQMPZiNpuD0OZQyXDE5BTXSF6Dd0FhelPyUdJ/jHMk/t6gVPA0LIYW6c1tQ23g=="
-              }
-            ],
-            "memo": "a54fefb356e52e67c8ab5c9d9b5045a33477ea3e@52.78.0.40:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode1",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma16c0fefy8cdu0rlm5cxn6a4gl0qf2r697nfne0m",
-                  "validator_address": "firmavaloper16c0fefy8cdu0rlm5cxn6a4gl0qf2r697d6cz04",
-                  "pubkey": "firmavalconspub1zcjduepqg2v26c5czg8hpzd9tyu5pwlu7kmrsqsfws29dgrp0tpa0lkcguwqdkf7uy",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "AmUuU42BrqT19NVYcJRGlZMK3YegUZYUKzlMcoQoxOIp"
-                },
-                "signature": "o/Y2fEVm5pq/e65ZjoFU8Ldha8g9NGTZEg2y7i5COZ4U8TkNrwvUJUgI5T78jxuvW8oxIsLVzn0RcBtdK1SZIA=="
-              }
-            ],
-            "memo": "bd5166128d71135e192be878f15967122e1384cb@52.79.35.219:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode9",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1qve8zzck4tss5y5yjmsygavdcc4pmvl522zmf8",
-                  "validator_address": "firmavaloper1qve8zzck4tss5y5yjmsygavdcc4pmvl55efqff",
-                  "pubkey": "firmavalconspub1zcjduepq89js2f4d2ayekvu2stcvv3nfp2v40yju2sdpmq07da9apg50q3jsfkggn6",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "A5/4Wf8Hk3BcHhzOW9Eby6jlsZYG54MN1nbWx1y2JJLQ"
-                },
-                "signature": "nkmAOoUbq2ZfmBLR0x/xRqeXS/BGryxnVqlgJkTsCsZ6+QJnhanUVkXENWENTKsYUy82tZqGxovc6vvj82IasA=="
-              }
-            ],
-            "memo": "c4e8090da9c6dbe2d9ed0e1cabd8ba09779f0976@13.125.141.242:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode4",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1w9rgx3d8mk8ae5rnjwhx5amchna68l0a3vl0yg",
-                  "validator_address": "firmavaloper1w9rgx3d8mk8ae5rnjwhx5amchna68l0a0l55yx",
-                  "pubkey": "firmavalconspub1zcjduepq7ljensmuwsthv5xjg7fqetmzk02ayqqfjesevadwnx8sdk2mqp8sddyaca",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "AhReMXI8tVJh6WNfb3TnSkO7XLYk9cHCghOiGLSyrwkC"
-                },
-                "signature": "twP3MZyVTEKJpwNUu6MHrADcI8BgDYKfn18WXlFvJMV5tc6cxQoJzZcmDb7KFaIyZw8CTfADRQ1BJVJdHl8KNg=="
-              }
-            ],
-            "memo": "de13a8737c8a35eaa20a00a1df5e1802f1d4a117@52.79.209.76:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "firmanode3",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1r34f9n4jg8elmrvrl99esg0clryddalet80x4w",
-                  "validator_address": "firmavaloper1r34f9n4jg8elmrvrl99esg0clryddale45ya4q",
-                  "pubkey": "firmavalconspub1zcjduepq3mnqtwnt357cf5g9560zslr9dg2x4kvjj35mr2ve6lw8xwjlysjqxrxdhf",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "AgkzaJVVe+mIs126Z5+2Gk/atDdx2jcu0U9Q7P7At2mN"
-                },
-                "signature": "aNQfbQuwwA6XZNG0MoUSWliRMP7BPlgOO88EGuCt4+F7VuYWPqISWjwXp5L1/HmU65zritD920PEK0+Fpcwd9Q=="
-              }
-            ],
-            "memo": "e6d5e0cad6a1f2b513fb051674b145f937c81690@52.79.188.220:26656"
-          }
-        }
-      ]
-    },
-    "params": null,
-    "bank": {
-      "send_enabled": true
     }
   }
 }
