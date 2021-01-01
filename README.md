@@ -12,17 +12,17 @@ FirmaChain Launch
 ## Seed Node
 ### Mainnet (augustus-1)
 ```
-9cf27b2d7ceed4f47bb06775ccec7d59618246e8@15.164.210.113:26656
-614daf6012c4cb2b7515547e68add6a4fd4666e2@node1.firmachain.org:26656
-c3e5939c25e5599af23b569de4ae805b26e32095@node2.firmachain.org:26656
-9f478d74f9750b002f3ed039ff5da6139414b970@node3.firmachain.org:26656
-c9c18a3e6b3187737e3cfab1ea4c110be32fb9a7@node4.firmachain.org:26656
-a2a68e5b139f4de38e7d320af318980d0336db33@node5.firmachain.org:26656
-80250c5b1913dd3f063dd6cf3ca4507c9b7a8cc0@node6.firmachain.org:26656
-61c906901ff45570ce33554694cdf2c4f047e00b@node7.firmachain.org:26656
-842d8a2146c737bd1e5a689c6f91c2720a9d4d68@node8.firmachain.org:26656
-b98144b784d3209b51b76fadc65e8d2a8d9a79cb@node9.firmachain.org:26656
-2f74efc8a6d3505cd395dc38f9b672389fd90bd3@node10.firmachain.org:26656
+9d696292f558951754730aefee8e70a786f3260f@15.164.210.113:26656 // node for rpc & explorer 
+b559728fb5c6158fa0a0178dbf37c1039911d35e@node1.firmachain.org:26656
+565dfeea10c498812836991c70f3f061e79fffb4@node2.firmachain.org:26656
+e2bc0171657bac1613cdc167487182b03a1d043a@node3.firmachain.org:26656
+43848fed44ef14425f19b81d410b4b6cc4328133@node4.firmachain.org:26656
+bc2948e95c2ecdba9a7dd176fc6980d12daa163f@node5.firmachain.org:26656
+b7d63614a839d17559b60bc1aaec18ea0e33ca2a@node6.firmachain.org:26656
+a3223f36ffe17039c4627a377385fda98e322943@node7.firmachain.org:26656
+14b3c5f298529bd8304d097ef2390ed433b0784b@node8.firmachain.org:26656
+23365690a083430de0a82791a840d3e1373b1d99@node9.firmachain.org:26656
+0982107c5a430c65af417973283bca8b26cd6ee8@node10.firmachain.org:26656
 ```
 
 ### Testnet (imperium-0000)
