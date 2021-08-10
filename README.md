@@ -1,14 +1,10 @@
 # FirmaChain-Launch
-FirmaChain Launch
+FirmaChain Mainnet Launch
 
 ## Network
 - Mainnet
   - augustus-1  *(Latest)*
     
-- Testnet
-  - imperium-0000  *(Latest)*
-
-
 ## Seed Node
 ### Mainnet (augustus-1)
 ```
@@ -23,9 +19,4 @@ a3223f36ffe17039c4627a377385fda98e322943@node7.firmachain.org:26656
 14b3c5f298529bd8304d097ef2390ed433b0784b@node8.firmachain.org:26656
 23365690a083430de0a82791a840d3e1373b1d99@node9.firmachain.org:26656
 0982107c5a430c65af417973283bca8b26cd6ee8@node10.firmachain.org:26656
-```
-
-### Testnet (imperium-0000)
-```
-59dde969972a3126f824bcadfe44023840f9bcca@52.78.147.71:26656 // Testnet Node #0
 ```
